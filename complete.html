@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 50%;
+            margin: 40px auto;
+            border: 1px solid #6b4a4a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="url"] {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            height: 40px;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>Admission Form</h2>
+        <form action="/submit" method="post">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            <label for="website">Enter your website:</label>
+            <input type="url" id="website" name="website" placeholder="https://example.com" required>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+</body>
+</html>

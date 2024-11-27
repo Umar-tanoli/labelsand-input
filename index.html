@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<style>
+    fieldset{
+        background-color: rgba(195, 135, 244, 0.864);
+    }
+    legend{
+        font-size: xx-large;
+    }
+</style>
+<body align="center" height="100px">
+    <form action="complete.html">
+    <center>
+<u><h1>STUDENT REGISTORATION FORM</h1></u>
+</center>
+<fieldset>
+    <legend align="center">Fill The Form</legend>
+    <center>
+    <table>
+        <tr>
+            <td><label for="Name">FIRST NAME</label></td>
+            <td><input type="text" name="name" placeholder="Enter the First Name" size="25" maxlength="25" required="required"></td>
+            <td><p>(max 25 character a-z and A-Z)</p></td>
+        </tr>
+           <tr>
+               <td><label for="Name">LAST NAME</label></td>
+               <td><input type="text" name="name" placeholder="Enter the Last Name" size="25" maxlength="25" required="required"></td>
+               <td><p>(max 25 character a-z and A-Z)</p></td>
+           </tr>
+        <tr>
+            <td><label for="Date of Birthday">DATE OF BIRTH</label></td>
+            <td><input type="date"></td>
+        </tr>
+<tr>
+    <td><label for="Email">EMAIL ID</label></td>
+    <td><input type="email" name="email" placeholder="Enter the Email Address" size="25" maxlength="25" required="required"></td>
+</tr>
+<tr>
+    <td><label for="number">MOBILE NUMBER</label></td>
+    <td><input type="tel" name="name" placeholder="Enter the Mobile Number" size="13" maxlength="13"  required="required"></td>
+    <td><p>(13 Digits Numbers)</p></td>
+</tr>
+  <tr>
+    <td><label for="gender">Gender</label></td>
+    <td>Male<input type="radio" name="Gender" value="Male"></td>
+    <td>Female<input type="radio" name="Gender" value="Female"></td>
+  </tr>
+  <tr>
+    <td><label for="Address">Address</label></td>
+    <td><textarea name="Address" rows="10" cols="30"></textarea></td>
+  </tr>
+  <tr>
+    <td><label for="City">City</label></td>
+    <td><input type="text" name="city" placeholder="Enter the City Name" size="30" maxlength="30"></td>
+    <td><p>(max 25 character a-z and A-Z)</p></td>
+</tr>
+<tr>
+    <td><label for="Name">PIN CODE</label></td>
+    <td><input type="text" name="pin code" placeholder="Enter the Pin Code" size="15" maxlength="6"></td>
+    <td><p>(6 Digits Numbers)</p></td>
+</tr>
+<tr>
+    <td><label for="Name">STATE</label></td>
+    <td><input type="text" name="state" placeholder="Enter the State" size="25" maxlength="25"></td>
+    <td><p>(max 25 character a-z and A-Z)</p></td>
+</tr>
+<tr>
+    <td><label for="Name">COUNTRY</label></td>
+    <td><input type="text" name="country" placeholder="Enter the Country Name"  required="required"></td>
+</tr>
+<tr>
+    <td><label for="Name">HOBBIES</label></td>
+    <td>Drawing<input type="checkbox" name="hobbies"></td>
+    <td>Singing<input type="checkbox" name="singing"></td>
+    <td>Dancing<input type="checkbox" name="dancing"></td>
+    <td>Sketching<input type="checkbox" name="Sketching"></td>
+    <td>Others<input type="checkbox" name="others"></td>
+    <td><input type="text"></td>
+</tr><br><br>
+<tr>
+<td><label for="qualification">QUALIFICATION</label></td>
+<td>
+    <table>
+       <thead>
+        <th>Sr.No. Examination</th>
+        <th>Board</th>
+        <th>Percentage</th>
+        <th>Year of Passing</th>
+        </thead>
+          <tbody>
+<tr>
+    <td>1.    Class X</td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    
+</tr>
+<tr>
+    <td>2.    Class XII</td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    
+</tr>
+<tr>
+    <td>3.    Graduation</td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    
+</tr>
+<tr>
+    <td>4.    Masters</td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    <td><input type="text" name="class x" size="10" maxlength="10"></td>
+    
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td></td>
+        <td>(10 char max)</td>
+        <td>upto 2 decimals</td>
+    </tr>
+</tfoot>
+    </table>
+</td>
+</tr>
+<tr>
+    <td><label for="courses">COURSES APPLIED FOR  </label></td>
+    <td>   BCA<input type="radio" name="courses" value="BCA"></td>
+    <td>B.A<input type="radio" name="courses" value="B.A"></td>
+    <td>B.Sc<input type="radio" name="courses" value="B.Sc"></td>
+    <td>B.Com<input type="radio" name="courses" value="B.Com"></td>
+</tr>
+</table>
+</center>
+<center>
+    <button><img src="cancel.jpg" alt="cancel
+        width="10" height="10" /> Cancel</button>
+       <input type="hidden" name="bookmark"
+        value="lyrics" />
+        <button><img src="submit.jpg" alt="submit"
+            width="10" height="10" /> Submit</button>
+           <input type="hidden" name="bookmark"
+            value="lyrics" />
+</center>
+</fieldset>
+</form>
+</body>
+</html>
